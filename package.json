@@ -1,0 +1,19 @@
+{
+  "name": "ssl-redirector",
+  "version": "0.0.0",
+  "description": "Command line tool to force HTTP requests to be redirected to HTTPS",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./ssl-redirector.js",
+  "preferGlobal": true,
+  "bin": {
+    "ssl-redirector": "./ssl-redirector.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/bahamas10/node-ssl-redirector.git",
+  "license": "MIT",
+  "dependencies": {
+    "access-log": "^0.3.8"
+  }
+}
